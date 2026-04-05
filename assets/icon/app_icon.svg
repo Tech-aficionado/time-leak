@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Background Layer -->
+  <rect width="1024" height="1024" fill="#0f0d15"/>
+  
+  <!-- Outer Squircle (Glowing Border Effect) -->
+  <rect x="212" y="212" width="600" height="600" rx="180" fill="#1e1829" stroke="#3d3152" stroke-width="8"/>
+
+  <!-- Inner Squircle (Main Container) -->
+  <rect x="220" y="220" width="584" height="584" rx="172" fill="#1e1829"/>
+
+  <!-- Stylized Hourglass Icon -->
+  <!-- 
+    Path Breakdown:
+    - Start at top-left corner of the top bulb
+    - Flat top
+    - Angular diagonal to the center
+    - Small horizontal gap in the middle
+    - Angular diagonal to the bottom bulb
+    - Flat bottom
+    - ...and back up
+  -->
+  <path
+    d="
+      M 435 370 
+      L 589 370 
+      Q 615 370 615 396 
+      L 615 425 
+      L 545 512 
+      L 615 599 
+      L 615 628 
+      Q 615 654 589 654 
+      L 435 654 
+      Q 409 654 409 628 
+      L 409 599 
+      L 479 512 
+      L 409 425 
+      L 409 396 
+      Q 409 370 435 370 
+      Z
+    "
+    fill="none"
+    stroke="#a38efc"
+    stroke-width="48"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+
+  <!-- Optional internal detail lines to match the "X" look in the middle -->
+  <path 
+    d="M 470 512 L 554 512" 
+    stroke="#a38efc" 
+    stroke-width="48" 
+    stroke-linecap="round"
+  />
+</svg>
